@@ -3,13 +3,9 @@
 This repository contains the open source version of my porfolio website.
 Do check it out!
 
-## Instructions 🛠️
-
-I have modified the gsap club plugins with the trial plugins, but with the trial plugin you cannot host it🔴. So for Club plugins, Check out here: https://gsap.com/docs/v3/Installation/
-
 **Techstack** - React, TypeScript, GSAP, ThreeJS, WebGL, HTML, Css, JavaScript
 
-![Portfolio-Preview](public/images/preview.png)
+<img width="1431" height="731" alt="image" src="https://github.com/user-attachments/assets/4adaf339-9cb8-46b0-aa86-f2cf0c30c9ae" />
 
 ## License
 
