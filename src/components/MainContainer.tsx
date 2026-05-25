@@ -9,7 +9,7 @@ import SocialIcons from "./SocialIcons";
 import WhatIDo from "./WhatIDo";
 import Work from "./Work";
 import setSplitText from "./utils/splitText";
-import Certificates from "./certificates";
+import Certificates from "./Certificates";
 
 const TechStack = lazy(() => import("./TechStack"));
 
