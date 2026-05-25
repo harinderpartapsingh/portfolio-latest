@@ -2,18 +2,26 @@ import "./styles/About.css";
 
 const About = () => {
   return (
-    <div className="about-section" id="about">
+    <section className="about-section" id="about">
       <div className="about-me">
         <h3 className="title">About Me</h3>
+
         <p className="para">
-          Full Stack Developer with 4+ years of experience building scalable web
-          applications using React.js, Angular, Next.js, Node.js, and NestJS. Skilled
-          in microservices architecture, CMS development, and low-code platforms.
-          Passionate about creating high-performance, production-ready solutions
-          from concept to deployment.
+          I am a Software Developer II focused on backend and full-stack
+          engineering, building secure, accessible, and production-ready
+          applications with Java, Spring Boot, Angular, React, AWS, Docker, and
+          CI/CD.
         </p>
+
+        <div className="about-highlights">
+          <span>Backend Systems</span>
+          <span>Full-Stack Development</span>
+          <span>Cloud & CI/CD</span>
+          <span>Accessibility</span>
+          <span>Production Reliability</span>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

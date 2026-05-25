@@ -41,7 +41,7 @@ const Contact = () => {
               Designed and Developed <br /> by <span>Harinder Partap Singh</span>
             </h2>
             <h5>
-              <MdCopyright /> 2025
+              <MdCopyright /> {new Date().getFullYear()} 
             </h5>
           </div>
         </div>

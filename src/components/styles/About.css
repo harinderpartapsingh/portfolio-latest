@@ -9,12 +9,14 @@
   width: var(--cWidth);
   margin: auto;
 }
+
 .about-me {
   padding: 50px 0px;
   padding-bottom: 0;
   width: 500px;
   max-width: calc(100% - 15px);
 }
+
 .about-me h3 {
   font-size: 25px;
   text-transform: uppercase;
@@ -28,6 +30,31 @@
   font-weight: 600;
   line-height: 36px;
   letter-spacing: 1px;
+  color: #a7a5ad;
+}
+
+/* NEW: highlight pills */
+.about-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 34px;
+}
+
+.about-highlights span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 16px;
+  border: 1px solid rgba(77, 182, 172, 0.35);
+  border-radius: 999px;
+  background: rgba(77, 182, 172, 0.08);
+  color: #d4d4d8;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.4px;
+  white-space: nowrap;
 }
 
 @media only screen and (min-width: 600px) {
@@ -35,16 +62,19 @@
     justify-content: center;
   }
 }
+
 @media only screen and (min-width: 768px) {
   .about-me {
     width: 500px;
     max-width: calc(100% - 70px);
     transform: translateY(0%);
   }
+
   .about-section {
     opacity: 1;
   }
 }
+
 @media only screen and (min-width: 1025px) {
   .about-section {
     width: var(--cWidth);
@@ -54,18 +84,27 @@
     padding: 0px;
     opacity: 1;
   }
+
   .about-me {
     padding: 0px;
-    width: 50%;
+    width: 55%;
   }
+
   .about-me p {
-    font-size: 1.9vw;
-    line-height: 2.3vw;
+    font-size: 1.65vw;
+    line-height: 2.05vw;
+    max-width: 980px;
+  }
+
+  .about-highlights {
+    max-width: 900px;
+    margin-top: 36px;
   }
 }
+
 @media only screen and (min-width: 1950px) {
   .about-me p {
-    font-size: 2.5rem;
-    line-height: 2.7rem;
+    font-size: 2.2rem;
+    line-height: 2.55rem;
   }
 }

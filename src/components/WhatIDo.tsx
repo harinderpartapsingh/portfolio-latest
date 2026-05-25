@@ -90,8 +90,8 @@ const WhatIDo = () => {
               <h3>FRONTEND</h3>
               <h4>Building Interactive UIs</h4>
               <p>
-                Crafting performant, responsive interfaces with modern frameworks.
-                From SPAs to micro-frontends, I deliver pixel-perfect experiences.
+                Crafting responsive, accessible interfaces with modern frameworks. 
+                From SPAs to production-ready web apps, I deliver clean user experiences.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -129,19 +129,18 @@ const WhatIDo = () => {
               <h3>BACKEND</h3>
               <h4>Scalable Server Architecture</h4>
               <p>
-                Designing robust APIs and microservices. From CMS platforms to
-                complex business logic, I build backends that scale.
+                Designing robust APIs, backend services, and business logic for secure, scalable applications.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">NestJS</div>
-                <div className="what-tags">Express.js</div>
+                <div className="what-tags">Java</div>
+                <div className="what-tags">Spring Boot</div>
+                <div className="what-tags">Next.js</div>
                 <div className="what-tags">MongoDB</div>
                 <div className="what-tags">PostgreSQL</div>
                 <div className="what-tags">REST APIs</div>
                 <div className="what-tags">Microservices</div>
-                <div className="what-tags">Python</div>
+                <div className="what-tags">MySQL</div>
               </div>
               <div className="what-arrow"></div>
             </div>
