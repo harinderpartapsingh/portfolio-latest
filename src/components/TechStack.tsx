@@ -29,8 +29,12 @@ const textures = imageUrls.map((url) => textureLoader.load(url));
 
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
 
+const isMobile = typeof window !== "undefined" && window.innerWidth <= 768;
+
 const spheres = [...Array(30)].map(() => ({
-  scale: [0.7, 1, 0.8, 1, 1][Math.floor(Math.random() * 5)],
+  scale:
+    [0.7, 1, 0.8, 1, 1][Math.floor(Math.random() * 5)] *
+    (isMobile ? 1.45 : 1),
 }));
 
 type SphereProps = {
@@ -176,7 +180,12 @@ const TechStack = () => {
       <Canvas
         shadows
         gl={{ alpha: true, stencil: false, depth: false, antialias: false }}
-        camera={{ position: [0, 0, 20], fov: 32.5, near: 1, far: 100 }}
+        camera={{
+          position: [0, 0, 20],
+          fov: isMobile ? 38 : 32.5,
+          near: 1,
+          far: 100,
+        }}
         onCreated={(state) => (state.gl.toneMappingExposure = 1.5)}
         className="tech-canvas"
       >
