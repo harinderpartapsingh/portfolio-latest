@@ -171,7 +171,7 @@
 .landing-intro {
   position: absolute;
   z-index: 9;
-  top: 12%;
+  top: 15%;
   left: 0;
 }
 
@@ -297,6 +297,10 @@ h2.landing-info-h2 {
 @media screen and (min-width: 768px) {
   .character-model {
     height: 80vh;
+  }
+
+  .landing-intro {
+    top: 25%;
   }
 
   .landing-intro h2 {
